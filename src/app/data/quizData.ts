@@ -452,101 +452,39 @@ export const quizDataByCategory: Record<string, Question[]> = {
   "en train !!!": [
     {
       id: 200,
-      question: "À votre avis, que fait TGV des pièces encore en bon état quand une rame TGV est retirée du service ?",
+      question: "TGV Lyria est membre du programme Swisstainable. En quoi consiste principalement ce programme ?",
       options: [
-        "A) Elles sont jetées",
-        "B) Elles sont récupérées pour réparer d'autres trains",
-        "C) Elles sont vendues",
-        "D) Elles sont fondues en décorations",
+        "A) Il certifie les entreprises de transport ferroviaire qui utilisent uniquement des énergies 100% renouvelables.",
+        "B) Il promeut le tourisme durable en Suisse en encourageant les pratiques respectueuses de l'environnement et des cultures locales.",
+        "C) Il récompense les compagnies qui atteignent un taux de recyclage de 90% de leurs déchets à bord des trains.",
       ],
       correctAnswer: 1,
-      explanation: "Le programme Opération D'obsolescence Déprogrammée prolonge la vie de 104 rames TGV INOUI.\nPour cela, TGV-IC réutilise un maximum de pièces encore en bon état plutôt que de les jeter.\nCes pièces servent à réparer ou moderniser d'autres trains, ce qui évite de produire du neuf et limite les déchets.\nAu total +10 000 pièces réemployées et recyclées au service de la performance industrielle et environnementale",
-      source: "SNCF"
+      explanation: "Le programme Swisstainable a pour objectif de promouvoir le tourisme durable en Suisse. Il encourage les acteurs du tourisme, dont TGV Lyria, à adopter des pratiques respectueuses de l'environnement, de la société et de l'économie locale, afin d'offrir des expériences de voyage plus durables aux visiteurs.",
+      source: "TGV Lyria"
     },
     {
       id: 201,
-      question: "Selon vous, le programme Opération D'obsolescence Déprogrammée allonge la durée de vie d'un TGV de... ?",
+      question: "Vous voyagez avec votre propre tasse ou mug ? Bravo pour ce geste écologique ! Quelle réduction obtenez-vous sur votre boisson chaude à bord ?",
       options: [
-        "A) 1 an",
-        "B) 2 ans",
-        "C) 5 ans",
-        "D) 15 ans",
+        "A) 0,05 €",
+        "B) 0,20 €",
+        "C) Il n'y a pas de réduction",
       ],
-      correctAnswer: 3,
-      explanation: "L'économie circulaire cherche d'abord à prolonger la durée d'usage des objets plutôt que d'en fabriquer de nouveaux.\nLe programme Opération D'obsolescence Déprogrammée permet de garder les TGV INOUI en service jusqu'à 40–50 ans, avec rénovation et réemploi de pièces.\nCela évite de construire trop de trains neufs et permet d'économiser des ressources et du CO2 (6,7 millions de tonnes de CO2 évitées sur le projet).",
-      source: "SNCF"
+      correctAnswer: 1,
+      explanation: "Oui, c'est 0,20 € de réduction ! Chaque geste compte pour la planète. En apportant votre propre contenant, vous contribuez directement à réduire nos déchets et à soutenir une démarche plus durable à bord. C'est un petit geste pour vous, un grand pas pour l'environnement !",
+      source: "TGV Lyria"
     },
     {
       id: 202,
-      question: "Quand les tenues des agents TGV arrivent en fin de vie, que se passe-t-il ?",
+      question: "TGV Lyria a organisé une animation RSE à bord des trains en décembre dernier, s'agit-il :",
       options: [
-        "A) Elles finissent toutes à la poubelle",
-        "B) Elles sont collectées et transformées en nouveaux objets ou en nouvelles matières",
-        "C) Elles sont stockées à vie dans un entrepôt",
-      ],
-      correctAnswer: 1,
-      explanation: "Les tenues des agents, conçues avec Armor Lux, sont collectées en fin de vie.\nElles sont triées dans une filière dédiée (FRIVEP) et dans l'usine Nouvelles Fibres Textiles à Amplepuis.\nLes textiles sont ensuite recyclés en nouvelles fibres ou upcyclés en objets (sacs, trousses, etc.), plutôt que d'être jetés.",
-      source: "SNCF"
-    },
-    {
-      id: 203,
-      question: "Selon vous, les tenues des agents TGV conçues avec Armor Lux sont éco-conçues à hauteur de :",
-      options: [
-        "A) 25 %",
-        "B) 50 %",
-        "C) 75 %",
-      ],
-      correctAnswer: 2,
-      explanation: "Le partenariat avec Armor Lux vise une circularité du vestiaire des agents.\n75 % du vestiaire est conçu pour être recyclable.\nLes 25 % restants sont valorisables (par exemple en énergie ou en autres usages), donc rien ne part directement à la poubelle.",
-      source: "SNCF"
-    },
-    {
-      id: 204,
-      question: "À bord d'un TGV, est-il possible d'apporter son propre contenant lorsqu'on souhaite acheter une boisson chaude ?",
-      options: [
-        "A) Vrai",
-        "B) Faux",
+        "A) D'une sensibilisation sur le réemploi des livres d'occasion avec distribution de livres d'enfants à bord",
+        "B) D'un atelier Nos Gestes Climat pour que les voyageurs puissent estimer leur empreinte carbone",
+        "C) D'une dégustation de produits Bio proposés au bar par les producteurs eux-mêmes",
       ],
       correctAnswer: 0,
-      explanation: "En effet, dans le TGV on peut se faire servir sa boisson chaude achetée au bistro dans son propre contenant afin d'éviter l'utilisation de gobelet jetable, et en prime une petite réduction s'applique.\nPensez aussi à prendre votre gourde au lieu d'acheter plusieurs bouteilles en plastique.",
-      source: "SNCF"
-    },
-    {
-      id: 205,
-      question: "À bord du TGV, dans quelle poubelle jette-t-on les contenants en verre ?",
-      options: [
-        "A) On ne peut pas les jeter, on doit les emporter avec nous en dehors du train",
-        "B) Dans la poubelle jaune",
-        "C) On peut les déposer au barista",
-      ],
-      correctAnswer: 2,
-      explanation: "Dans le TGV, on peut déposer ses contenants en verre directement en voiture bar auprès du barista qui possède une solution de tri afin de voyager plus responsable.",
-      source: "SNCF"
-    },
-    {
-      id: 206,
-      question: "Selon vous, quel est le taux de recyclabilité du nouveau TGV INOUI qui arrivera courant 2026 sur le réseau ferroviaire ?",
-      options: [
-        "A) 23 %",
-        "B) 56 %",
-        "C) 78 %",
-        "D) 97 %",
-      ],
-      correctAnswer: 3,
-      explanation: "La nouvelle génération de TGV INOUI est recyclable à 97 %. Les TGV actuels le sont à 92 %, ce qui contribue à en faire le train à grande vitesse avec le bilan carbone le plus faible du marché.",
-      source: "SNCF"
-    },
-    {
-      id: 207,
-      question: "Selon vous, quel est le taux de matériaux recyclés utilisés pour la fabrication du nouveau TGV INOUI ?",
-      options: [
-        "A) 1 %",
-        "B) 10 %",
-        "C) 25 %",
-      ],
-      correctAnswer: 2,
-      explanation: "Le nouveau TGV INOUI a été fabriqué avec 25 % de matériaux issus du recyclage (soit 100 tonnes).",
-      source: "SNCF"
+      explanation: "En décembre dernier, TGV Lyria a organisé une animation dédiée au réemploi du livre. Nous avons offert aux enfants présents à bord des livres issus du réemploi, en partenariat avec Ammareal, un acteur engagé dans l'économie circulaire du livre. L'occasion également de sensibiliser les voyageurs à l'importance de donner une seconde vie aux livres. Une belle initiative pour allier plaisir de la lecture et respect de l'environnement !",
+      source: "TGV Lyria"
     }
   ]
 };

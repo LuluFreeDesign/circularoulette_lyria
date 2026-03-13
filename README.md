@@ -1,6 +1,6 @@
-# CirculaRoulette SNCF - Quiz Économie Circulaire
+# CirculaRoulette TGV Lyria - Quiz Économie Circulaire
 
-Application React interactive de quiz sur l'économie circulaire pour les **Journées Nationales du Recyclage 2026**, en partenariat SNCF.
+Application React interactive de quiz sur l'économie circulaire pour les **Journées Nationales du Recyclage 2026**, en partenariat TGV Lyria.
 
 ## Description
 
@@ -12,18 +12,12 @@ CirculaRoulette est une version numérique interactive de la roue physique Circu
 
 ## Fonctionnalités
 
-- 73+ questions réparties sur 8 catégories
+- 70+ questions réparties sur 8 catégories
 - Interface responsive (mobile & desktop)
 - Animations fluides avec Motion
-- Design accessible avec couleurs SNCF
+- Design accessible
 - Éco-conception et optimisation des performances
 - Intégrable en iframe dans un site Wagtail (auto-resize)
-
-## Palette SNCF
-
-- Couleurs claires : #a4c8e1, #a1d6ca
-- Couleurs normales : #0084d4, #00b388
-- Couleurs sombres : #00205b, #003865, #154734
 
 ## Installation
 
@@ -58,4 +52,4 @@ Voir [IFRAME_INTEGRATION.md](./IFRAME_INTEGRATION.md) pour l'intégration Wagtai
 
 ## Jeu concours
 
-Formulaire jeu concours : https://quefairedemesdechets.ademe.fr/jeu-concours-entrain-pour-le-climat/
+Formulaire jeu concours : https://tally.so/r/EklWLq
