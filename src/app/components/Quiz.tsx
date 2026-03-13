@@ -287,9 +287,9 @@ export function Quiz({ category, isMystery = false, onComplete }: QuizProps) {
             <p className="text-[#3A3A3A] leading-relaxed">
               {renderExplanation(currentQuestion.explanation)}
             </p>
-            {currentQuestion.source === "SNCF" && (
+            {currentQuestion.source === "TGV Lyria" && (
               <p className="text-[#3A3A3A] text-sm italic mt-2">
-                Source : SNCF voyageurs
+                Source : TGV Lyria
               </p>
             )}
           </div>
