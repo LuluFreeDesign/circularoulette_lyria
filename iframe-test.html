@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test d'intégration iframe - CirculaRoulette</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
+        header { text-align: center; color: white; margin-bottom: 40px; }
+        header h1 { font-size: 2.5rem; margin-bottom: 10px; }
+        header p { font-size: 1.2rem; opacity: 0.9; }
+        .iframe-container { background: white; border-radius: 16px; box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3); overflow: hidden; margin-bottom: 40px; }
+        .iframe-wrapper { position: relative; width: 100%; padding: 20px 0; }
+        iframe { width: 100%; height: 700px; border: none; display: block; }
+        .info-section { background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); border-radius: 12px; padding: 30px; color: white; }
+        .info-section h2 { margin-top: 0; font-size: 1.8rem; }
+        .info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 20px; }
+        .info-card { background: rgba(255, 255, 255, 0.1); padding: 20px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.2); }
+        .info-card h3 { margin-top: 0; font-size: 1.2rem; }
+        .info-card p { margin: 0; opacity: 0.9; line-height: 1.6; }
+        @media (max-width: 768px) { header h1 { font-size: 1.8rem; } iframe { height: 650px; } .info-grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>CirculaRoulette</h1>
+            <p>Quiz interactif sur l'économie circulaire</p>
+            <p style="font-size: 0.9rem; opacity: 0.8;">Journées Nationales du Recyclage 2026</p>
+        </header>
+        <div class="iframe-container">
+            <div class="iframe-wrapper">
+                <!-- REMPLACEZ L'URL PAR VOTRE URL DE DÉPLOIEMENT -->
+                <iframe src="http://localhost:5173" title="CirculaRoulette - Quiz économie circulaire" loading="lazy"></iframe>
+            </div>
+        </div>
+        <div class="info-section">
+            <h2>A propos de ce quiz</h2>
+            <div class="info-grid">
+                <div class="info-card"><h3>Economie circulaire</h3><p>Découvrez les principes du réemploi, de la réparation et de la réutilisation avant le recyclage.</p></div>
+                <div class="info-card"><h3>75 questions</h3><p>8 catégories différentes pour tester vos connaissances de manière ludique et pédagogique.</p></div>
+                <div class="info-card"><h3>Apprentissage</h3><p>Chaque réponse est accompagnée d'une explication détaillée avec sources fiables.</p></div>
+                <div class="info-card"><h3>Eco-conçu</h3><p>Application optimisée pour minimiser son empreinte carbone et maximiser l'accessibilité.</p></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
