@@ -52,4 +52,4 @@ Voir [IFRAME_INTEGRATION.md](./IFRAME_INTEGRATION.md) pour l'intégration Wagtai
 
 ## Jeu concours
 
-Formulaire jeu concours : https://tally.so/r/EklWLq
+Formulaire jeu concours : https://quefairedemesdechets.ademe.fr/jeu-concours-entrain-pour-le-climat-lyria/

@@ -92,4 +92,4 @@ export const quizDataByCategory: Record<string, Question[]>
 - Les explications dans quizData.ts utilisent des liens markdown `[texte](url)` parsés dans Quiz.tsx
 - Le composant Quiz.tsx gère 3 modes : réponse unique, réponses multiples, question de discussion (options vides)
 - La roue est responsive : 340px mobile / 500px desktop
-- Jeu concours via formulaire Tally : https://tally.so/r/EklWLq
+- Jeu concours : https://quefairedemesdechets.ademe.fr/jeu-concours-entrain-pour-le-climat-lyria/
