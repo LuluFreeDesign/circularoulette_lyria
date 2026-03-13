@@ -306,15 +306,15 @@ export function Quiz({ category, isMystery = false, onComplete }: QuizProps) {
                 <span className="text-3xl" aria-hidden="true">🎁</span>
                 <div className="flex-1">
                   <h4 className="font-bold text-lg text-[#1592A8] mb-2">
-                    Bravo ! Tentez de gagner un Aller / Retour en TGV INOUI !
+                    Bravo ! Tentez de gagner un Aller / Retour en TGV Lyria !
                   </h4>
                   <p className="text-[#3A3A3A] mb-4 leading-relaxed">
-                    Une bonne réponse = une chance de gagner un Aller / Retour en TGV INOUI.
+                    Une bonne réponse = une chance de gagner un Aller / Retour en TGV Lyria.
                     <br />
                     Pour participer au tirage au sort, il suffit de nous laisser votre email 💌.
                   </p>
                   <a
-                    href="https://quefairedemesdechets.ademe.fr/jeu-concours-entrain-pour-le-climat/"
+                    href="https://quefairedemesdechets.ademe.fr/jeu-concours-entrain-pour-le-climat-lyria/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 bg-[#1592A8] text-white px-6 py-3 rounded-lg font-medium transition-all hover:bg-[#0A4D5A] hover:scale-105 focus:outline-none focus:ring-4 focus:ring-[#1592A8] focus:ring-opacity-50 shadow-md hover:shadow-lg"
