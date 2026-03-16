@@ -309,7 +309,7 @@ export function Quiz({ category, isMystery = false, onComplete }: QuizProps) {
                     Bravo ! Tentez de gagner un Aller / Retour en TGV Lyria !
                   </h4>
                   <p className="text-[#3A3A3A] mb-4 leading-relaxed">
-                    Une bonne réponse = une chance de gagner un Aller / Retour en TGV Lyria.
+                    Une bonne réponse = Une chance de gagner un Aller / Retour en TGV Lyria pour 2 personnes en classe Standard.
                     <br />
                     Pour participer au tirage au sort, il suffit de nous laisser votre email 💌.
                   </p>
