@@ -303,30 +303,13 @@ export function Quiz({ category, isMystery = false, onComplete }: QuizProps) {
               className="mt-4 p-5 rounded-lg bg-gradient-to-br from-[#BDE3EB]/30 to-[#BDE3EB]/30 border-2 border-[#1592A8]"
             >
               <div className="flex items-start gap-3">
-                <span className="text-3xl" aria-hidden="true">🎁</span>
+                <span className="text-3xl" aria-hidden="true">✅</span>
                 <div className="flex-1">
                   <h4 className="font-bold text-lg text-[#1592A8] mb-2">
-                    Bravo ! Tentez de gagner un Aller / Retour en TGV Lyria !
+                    Le jeu concours est terminé.
                   </h4>
-                  <p className="text-[#3A3A3A] mb-4 leading-relaxed">
-                    Une bonne réponse = Une chance de gagner un Aller / Retour en TGV Lyria pour 2 personnes en classe Standard.
-                    <br />
-                    Pour participer au tirage au sort, il suffit de nous laisser votre email 💌.
-                  </p>
-                  <a
-                    href="https://quefairedemesdechets.ademe.fr/jeu-concours-entrain-pour-le-climat-lyria/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 bg-[#1592A8] text-white px-6 py-3 rounded-lg font-medium transition-all hover:bg-[#0A4D5A] hover:scale-105 focus:outline-none focus:ring-4 focus:ring-[#1592A8] focus:ring-opacity-50 shadow-md hover:shadow-lg"
-                  >
-                    <span>Participer au jeu concours</span>
-                    <span aria-hidden="true">&rarr;</span>
-                  </a>
-                  <p className="text-xs text-[#0A4D5A] mt-3">
-                    Le formulaire s'ouvrira dans un nouvel onglet
-                  </p>
-                  <p className="text-sm font-semibold text-red-600 mt-4 p-3 bg-red-50 rounded-lg border border-red-200">
-                    ⏰ Dernier jour ! Fin des participations le 31 Mars 2026 à 23h59.
+                  <p className="text-[#3A3A3A] leading-relaxed">
+                    Vous pouvez relancer la roue pour en savoir plus sur l'économie circulaire !
                   </p>
                 </div>
               </div>
